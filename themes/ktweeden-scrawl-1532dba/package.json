@@ -1,0 +1,19 @@
+{
+  "name":"scrawl",
+  "version":"1.0.3",
+  "author":"Kate Preston <ktweeden@gmail.com>",
+  "contributors": [],
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/ktweeden/scrawl"
+  },
+  "keywords":[
+    "blog",
+    "ghost",
+    "theme"
+  ],
+  "scripts":{
+    "watch-css":"sass --watch sass:assets/css",
+    "postcss":"postcss -r --use autoprefixer assets/css/index.css && postcss -r --use autoprefixer assets/css/post.css"
+  }
+}
